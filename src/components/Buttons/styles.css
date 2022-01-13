@@ -1,0 +1,36 @@
+.btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.primaryBtn {
+  background: var(--primaryBtn);
+  color: var(--primaryTxt);
+}
+
+.secondaryBtn {
+  background: var(--secondaryBtn);
+  color: var(--secondaryTxt);
+}
+
+.smallBtn {
+  font-size: var(--smallBtnSize);
+}
+
+.mediumBtn {
+  font-size: var(--mediumBtnSize);
+}
+
+.largeBtn {
+  font-size: var(--largeBtnSize);
+}
+
+.defaultBtnStyle {
+  background: var(--primaryBtn);
+  color: var(--primaryTxt);
+}
+
+.defaultBtnSize {
+  font-size: var(--mediumBtnSize);
+}

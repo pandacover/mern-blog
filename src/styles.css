@@ -1,0 +1,19 @@
+:root {
+  --primaryBtn: #fff;
+  --secondaryBtn: #000;
+  --primaryTxt: #000;
+  --secondaryTxt: #fff;
+  --smallBtnSize: 16px;
+  --mediumBtnSize: 19px;
+  --largeBtnSize: 22px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  font-family: sans-serif;
+}

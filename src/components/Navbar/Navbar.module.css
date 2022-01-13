@@ -1,0 +1,14 @@
+.navbar {
+  display: grid;
+  margin: 10px 0 0 10px;
+  grid-template-columns: 1fr 2fr 0.2fr;
+}
+
+.navbar > div:first-of-type > span {
+  font-size: 22px;
+}
+
+.navbar > div:last-of-type {
+  display: flex;
+  justify-content: space-around;
+}
